@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072FEF2523217AEA00F0D90D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072FEF2423217AEA00F0D90D /* AppDelegate.swift */; };
+		072FEF2723217AEA00F0D90D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072FEF2623217AEA00F0D90D /* SceneDelegate.swift */; };
+		072FEF2A23217AEA00F0D90D /* test_sap_viewrouter_sui.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 072FEF2823217AEA00F0D90D /* test_sap_viewrouter_sui.xcdatamodeld */; };
+		072FEF2C23217AEA00F0D90D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072FEF2B23217AEA00F0D90D /* ContentView.swift */; };
+		072FEF2E23217AEC00F0D90D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072FEF2D23217AEC00F0D90D /* Assets.xcassets */; };
+		072FEF3123217AEC00F0D90D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072FEF3023217AEC00F0D90D /* Preview Assets.xcassets */; };
+		072FEF3423217AEC00F0D90D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072FEF3223217AEC00F0D90D /* LaunchScreen.storyboard */; };
+		072FEF3F23217AEC00F0D90D /* test_sap_viewrouter_suiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072FEF3E23217AEC00F0D90D /* test_sap_viewrouter_suiTests.swift */; };
+		072FEF4A23217AEC00F0D90D /* test_sap_viewrouter_suiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072FEF4923217AEC00F0D90D /* test_sap_viewrouter_suiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		072FEF3B23217AEC00F0D90D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 072FEF1923217AEA00F0D90D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 072FEF2023217AEA00F0D90D;
+			remoteInfo = "test-sap-viewrouter-sui";
+		};
+		072FEF4623217AEC00F0D90D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 072FEF1923217AEA00F0D90D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 072FEF2023217AEA00F0D90D;
+			remoteInfo = "test-sap-viewrouter-sui";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072FEF2123217AEA00F0D90D /* test-sap-viewrouter-sui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-sap-viewrouter-sui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		072FEF2423217AEA00F0D90D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		072FEF2623217AEA00F0D90D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		072FEF2923217AEA00F0D90D /* test_sap_viewrouter_sui.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test_sap_viewrouter_sui.xcdatamodel; sourceTree = "<group>"; };
+		072FEF2B23217AEA00F0D90D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		072FEF2D23217AEC00F0D90D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		072FEF3023217AEC00F0D90D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		072FEF3323217AEC00F0D90D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		072FEF3523217AEC00F0D90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072FEF3A23217AEC00F0D90D /* test-sap-viewrouter-suiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-sap-viewrouter-suiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		072FEF3E23217AEC00F0D90D /* test_sap_viewrouter_suiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_sap_viewrouter_suiTests.swift; sourceTree = "<group>"; };
+		072FEF4023217AEC00F0D90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072FEF4523217AEC00F0D90D /* test-sap-viewrouter-suiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-sap-viewrouter-suiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		072FEF4923217AEC00F0D90D /* test_sap_viewrouter_suiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_sap_viewrouter_suiUITests.swift; sourceTree = "<group>"; };
+		072FEF4B23217AEC00F0D90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		072FEF1E23217AEA00F0D90D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072FEF3723217AEC00F0D90D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072FEF4223217AEC00F0D90D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072FEF1823217AEA00F0D90D = {
+			isa = PBXGroup;
+			children = (
+				072FEF2323217AEA00F0D90D /* test-sap-viewrouter-sui */,
+				072FEF3D23217AEC00F0D90D /* test-sap-viewrouter-suiTests */,
+				072FEF4823217AEC00F0D90D /* test-sap-viewrouter-suiUITests */,
+				072FEF2223217AEA00F0D90D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		072FEF2223217AEA00F0D90D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				072FEF2123217AEA00F0D90D /* test-sap-viewrouter-sui.app */,
+				072FEF3A23217AEC00F0D90D /* test-sap-viewrouter-suiTests.xctest */,
+				072FEF4523217AEC00F0D90D /* test-sap-viewrouter-suiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		072FEF2323217AEA00F0D90D /* test-sap-viewrouter-sui */ = {
+			isa = PBXGroup;
+			children = (
+				072FEF2423217AEA00F0D90D /* AppDelegate.swift */,
+				072FEF2623217AEA00F0D90D /* SceneDelegate.swift */,
+				072FEF2B23217AEA00F0D90D /* ContentView.swift */,
+				072FEF2D23217AEC00F0D90D /* Assets.xcassets */,
+				072FEF3223217AEC00F0D90D /* LaunchScreen.storyboard */,
+				072FEF3523217AEC00F0D90D /* Info.plist */,
+				072FEF2823217AEA00F0D90D /* test_sap_viewrouter_sui.xcdatamodeld */,
+				072FEF2F23217AEC00F0D90D /* Preview Content */,
+			);
+			path = "test-sap-viewrouter-sui";
+			sourceTree = "<group>";
+		};
+		072FEF2F23217AEC00F0D90D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				072FEF3023217AEC00F0D90D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		072FEF3D23217AEC00F0D90D /* test-sap-viewrouter-suiTests */ = {
+			isa = PBXGroup;
+			children = (
+				072FEF3E23217AEC00F0D90D /* test_sap_viewrouter_suiTests.swift */,
+				072FEF4023217AEC00F0D90D /* Info.plist */,
+			);
+			path = "test-sap-viewrouter-suiTests";
+			sourceTree = "<group>";
+		};
+		072FEF4823217AEC00F0D90D /* test-sap-viewrouter-suiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				072FEF4923217AEC00F0D90D /* test_sap_viewrouter_suiUITests.swift */,
+				072FEF4B23217AEC00F0D90D /* Info.plist */,
+			);
+			path = "test-sap-viewrouter-suiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		072FEF2023217AEA00F0D90D /* test-sap-viewrouter-sui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072FEF4E23217AEC00F0D90D /* Build configuration list for PBXNativeTarget "test-sap-viewrouter-sui" */;
+			buildPhases = (
+				072FEF1D23217AEA00F0D90D /* Sources */,
+				072FEF1E23217AEA00F0D90D /* Frameworks */,
+				072FEF1F23217AEA00F0D90D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test-sap-viewrouter-sui";
+			productName = "test-sap-viewrouter-sui";
+			productReference = 072FEF2123217AEA00F0D90D /* test-sap-viewrouter-sui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		072FEF3923217AEC00F0D90D /* test-sap-viewrouter-suiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072FEF5123217AEC00F0D90D /* Build configuration list for PBXNativeTarget "test-sap-viewrouter-suiTests" */;
+			buildPhases = (
+				072FEF3623217AEC00F0D90D /* Sources */,
+				072FEF3723217AEC00F0D90D /* Frameworks */,
+				072FEF3823217AEC00F0D90D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				072FEF3C23217AEC00F0D90D /* PBXTargetDependency */,
+			);
+			name = "test-sap-viewrouter-suiTests";
+			productName = "test-sap-viewrouter-suiTests";
+			productReference = 072FEF3A23217AEC00F0D90D /* test-sap-viewrouter-suiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		072FEF4423217AEC00F0D90D /* test-sap-viewrouter-suiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072FEF5423217AEC00F0D90D /* Build configuration list for PBXNativeTarget "test-sap-viewrouter-suiUITests" */;
+			buildPhases = (
+				072FEF4123217AEC00F0D90D /* Sources */,
+				072FEF4223217AEC00F0D90D /* Frameworks */,
+				072FEF4323217AEC00F0D90D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				072FEF4723217AEC00F0D90D /* PBXTargetDependency */,
+			);
+			name = "test-sap-viewrouter-suiUITests";
+			productName = "test-sap-viewrouter-suiUITests";
+			productReference = 072FEF4523217AEC00F0D90D /* test-sap-viewrouter-suiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		072FEF1923217AEA00F0D90D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "MING Technology LLC";
+				TargetAttributes = {
+					072FEF2023217AEA00F0D90D = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					072FEF3923217AEC00F0D90D = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 072FEF2023217AEA00F0D90D;
+					};
+					072FEF4423217AEC00F0D90D = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 072FEF2023217AEA00F0D90D;
+					};
+				};
+			};
+			buildConfigurationList = 072FEF1C23217AEA00F0D90D /* Build configuration list for PBXProject "test-sap-viewrouter-sui" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 072FEF1823217AEA00F0D90D;
+			productRefGroup = 072FEF2223217AEA00F0D90D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				072FEF2023217AEA00F0D90D /* test-sap-viewrouter-sui */,
+				072FEF3923217AEC00F0D90D /* test-sap-viewrouter-suiTests */,
+				072FEF4423217AEC00F0D90D /* test-sap-viewrouter-suiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		072FEF1F23217AEA00F0D90D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072FEF3423217AEC00F0D90D /* LaunchScreen.storyboard in Resources */,
+				072FEF3123217AEC00F0D90D /* Preview Assets.xcassets in Resources */,
+				072FEF2E23217AEC00F0D90D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072FEF3823217AEC00F0D90D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072FEF4323217AEC00F0D90D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		072FEF1D23217AEA00F0D90D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072FEF2523217AEA00F0D90D /* AppDelegate.swift in Sources */,
+				072FEF2723217AEA00F0D90D /* SceneDelegate.swift in Sources */,
+				072FEF2C23217AEA00F0D90D /* ContentView.swift in Sources */,
+				072FEF2A23217AEA00F0D90D /* test_sap_viewrouter_sui.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072FEF3623217AEC00F0D90D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072FEF3F23217AEC00F0D90D /* test_sap_viewrouter_suiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072FEF4123217AEC00F0D90D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072FEF4A23217AEC00F0D90D /* test_sap_viewrouter_suiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		072FEF3C23217AEC00F0D90D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 072FEF2023217AEA00F0D90D /* test-sap-viewrouter-sui */;
+			targetProxy = 072FEF3B23217AEC00F0D90D /* PBXContainerItemProxy */;
+		};
+		072FEF4723217AEC00F0D90D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 072FEF2023217AEA00F0D90D /* test-sap-viewrouter-sui */;
+			targetProxy = 072FEF4623217AEC00F0D90D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		072FEF3223217AEC00F0D90D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				072FEF3323217AEC00F0D90D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		072FEF4C23217AEC00F0D90D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		072FEF4D23217AEC00F0D90D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		072FEF4F23217AEC00F0D90D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"test-sap-viewrouter-sui/Preview Content\"";
+				DEVELOPMENT_TEAM = X4USQ3CZ9A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "test-sap-viewrouter-sui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.mingtech.test-sap-viewrouter-sui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		072FEF5023217AEC00F0D90D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"test-sap-viewrouter-sui/Preview Content\"";
+				DEVELOPMENT_TEAM = X4USQ3CZ9A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "test-sap-viewrouter-sui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.mingtech.test-sap-viewrouter-sui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		072FEF5223217AEC00F0D90D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4USQ3CZ9A;
+				INFOPLIST_FILE = "test-sap-viewrouter-suiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.mingtech.test-sap-viewrouter-suiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test-sap-viewrouter-sui.app/test-sap-viewrouter-sui";
+			};
+			name = Debug;
+		};
+		072FEF5323217AEC00F0D90D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4USQ3CZ9A;
+				INFOPLIST_FILE = "test-sap-viewrouter-suiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.mingtech.test-sap-viewrouter-suiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test-sap-viewrouter-sui.app/test-sap-viewrouter-sui";
+			};
+			name = Release;
+		};
+		072FEF5523217AEC00F0D90D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4USQ3CZ9A;
+				INFOPLIST_FILE = "test-sap-viewrouter-suiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.mingtech.test-sap-viewrouter-suiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "test-sap-viewrouter-sui";
+			};
+			name = Debug;
+		};
+		072FEF5623217AEC00F0D90D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4USQ3CZ9A;
+				INFOPLIST_FILE = "test-sap-viewrouter-suiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.mingtech.test-sap-viewrouter-suiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "test-sap-viewrouter-sui";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		072FEF1C23217AEA00F0D90D /* Build configuration list for PBXProject "test-sap-viewrouter-sui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072FEF4C23217AEC00F0D90D /* Debug */,
+				072FEF4D23217AEC00F0D90D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		072FEF4E23217AEC00F0D90D /* Build configuration list for PBXNativeTarget "test-sap-viewrouter-sui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072FEF4F23217AEC00F0D90D /* Debug */,
+				072FEF5023217AEC00F0D90D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		072FEF5123217AEC00F0D90D /* Build configuration list for PBXNativeTarget "test-sap-viewrouter-suiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072FEF5223217AEC00F0D90D /* Debug */,
+				072FEF5323217AEC00F0D90D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		072FEF5423217AEC00F0D90D /* Build configuration list for PBXNativeTarget "test-sap-viewrouter-suiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072FEF5523217AEC00F0D90D /* Debug */,
+				072FEF5623217AEC00F0D90D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		072FEF2823217AEA00F0D90D /* test_sap_viewrouter_sui.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				072FEF2923217AEA00F0D90D /* test_sap_viewrouter_sui.xcdatamodel */,
+			);
+			currentVersion = 072FEF2923217AEA00F0D90D /* test_sap_viewrouter_sui.xcdatamodel */;
+			path = test_sap_viewrouter_sui.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 072FEF1923217AEA00F0D90D /* Project object */;
+}
