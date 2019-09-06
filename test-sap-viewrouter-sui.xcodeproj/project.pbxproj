@@ -16,6 +16,10 @@
 		072FEF3423217AEC00F0D90D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072FEF3223217AEC00F0D90D /* LaunchScreen.storyboard */; };
 		072FEF3F23217AEC00F0D90D /* test_sap_viewrouter_suiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072FEF3E23217AEC00F0D90D /* test_sap_viewrouter_suiTests.swift */; };
 		072FEF4A23217AEC00F0D90D /* test_sap_viewrouter_suiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072FEF4923217AEC00F0D90D /* test_sap_viewrouter_suiUITests.swift */; };
+		072FEF5823217C8000F0D90D /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072FEF5723217C8000F0D90D /* ViewRouter.swift */; };
+		072FEF5A2321848100F0D90D /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072FEF592321848100F0D90D /* MainContentView.swift */; };
+		072FEF5C2321884D00F0D90D /* ListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072FEF5B2321884D00F0D90D /* ListContentView.swift */; };
+		072FEF5E2321886C00F0D90D /* SpecialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072FEF5D2321886C00F0D90D /* SpecialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		072FEF4523217AEC00F0D90D /* test-sap-viewrouter-suiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-sap-viewrouter-suiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		072FEF4923217AEC00F0D90D /* test_sap_viewrouter_suiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_sap_viewrouter_suiUITests.swift; sourceTree = "<group>"; };
 		072FEF4B23217AEC00F0D90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072FEF5723217C8000F0D90D /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = SOURCE_ROOT; };
+		072FEF592321848100F0D90D /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		072FEF5B2321884D00F0D90D /* ListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContentView.swift; sourceTree = "<group>"; };
+		072FEF5D2321886C00F0D90D /* SpecialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 		072FEF2323217AEA00F0D90D /* test-sap-viewrouter-sui */ = {
 			isa = PBXGroup;
 			children = (
+				072FEF5723217C8000F0D90D /* ViewRouter.swift */,
+				072FEF5B2321884D00F0D90D /* ListContentView.swift */,
+				072FEF5D2321886C00F0D90D /* SpecialView.swift */,
+				072FEF592321848100F0D90D /* MainContentView.swift */,
 				072FEF2423217AEA00F0D90D /* AppDelegate.swift */,
 				072FEF2623217AEA00F0D90D /* SceneDelegate.swift */,
 				072FEF2B23217AEA00F0D90D /* ContentView.swift */,
@@ -270,10 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072FEF5E2321886C00F0D90D /* SpecialView.swift in Sources */,
+				072FEF5823217C8000F0D90D /* ViewRouter.swift in Sources */,
+				072FEF5C2321884D00F0D90D /* ListContentView.swift in Sources */,
 				072FEF2523217AEA00F0D90D /* AppDelegate.swift in Sources */,
 				072FEF2723217AEA00F0D90D /* SceneDelegate.swift in Sources */,
 				072FEF2C23217AEA00F0D90D /* ContentView.swift in Sources */,
 				072FEF2A23217AEA00F0D90D /* test_sap_viewrouter_sui.xcdatamodeld in Sources */,
+				072FEF5A2321848100F0D90D /* MainContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
